@@ -2,3 +2,4 @@ sessions.csv
 *.exe
 config.json
 tracker.log
+__pycache__
