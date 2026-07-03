@@ -1,4 +1,4 @@
-#THIS IS THE MAIN EXTRY POINT FOR THIS PROJECT
+#THIS IS THE MAIN ENTRY POINT FOR THIS PROJECT
 #THIS IS WHERE ALL OPERATIONS WILL BE HANDLED
 
 import modules.storage as storage,modules.analytics as analytics,modules.Loger as Loger
@@ -32,7 +32,10 @@ def Handler( command ):
         storage.csv_storing(inp())
 
     elif (command == "stats"):
-        pass
+        for c,s in analytics.stat_choices.items():
+            print(f"{c}.{s}",end = "\n")
+        ch = (input("Choice for stat : "))
+        analytics.manage_analytics(ch)
     
     elif (command == "goal"):
         pass
