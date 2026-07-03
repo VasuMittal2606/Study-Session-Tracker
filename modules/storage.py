@@ -27,4 +27,6 @@ def csv_storing(data_dict):
     print("Session Saved Successfully")
     return data_dict
 
-
+# FUTURE SCOPE FOR DELETION AND UPDATION
+# def delete_data():
+#     pass
