@@ -1,5 +1,5 @@
-sessions.csv
+*.csv
 *.exe
-config.json
-tracker.log
+*.json
+*.log
 __pycache__
